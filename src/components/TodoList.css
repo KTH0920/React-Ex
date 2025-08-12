@@ -1,0 +1,15 @@
+.list {
+  padding: 0;
+}
+.list li {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+}
+.list li span {
+  flex: 1;
+}
+.list li span.completed {
+  text-decoration: line-through;
+  color: #ccc;
+}
