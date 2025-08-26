@@ -43,7 +43,7 @@ const TodoList = () => {
         {todos.map((todo) => (
           <li>
             <span
-              onClick={() => dispatch({ type: "toggle" })}
+              onClick={() => dispatch({ type: "toggle", id: todo.id })}
               className="completed"
             >
               {todo.text}
